@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+<nav>
+        <div class="nav_container">
+            <div class="nav_logo">
+             BUZZ
+             </div>
+               <ul class="menu" id="main_menu">
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">about</a>
+                </li>
+                <li>
+                    <a href="">service</a>
+                </li>
+                <li>
+                    <a href="">team</a>
+                </li>
+                <li>
+                    <a href="">contact</a>
+                </li>
+         </ul>
+        <button onclick="handleclick()">open</button>
+    </nav>
+    <img src="OIP.jpg" alt="" class="img">
+    <br>
+    <br>
+    <h1 style="text-align: center;">~Our Menu~</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>S/NO.</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>CATEGORY</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td>1</td>
+                <td>Cappucinno</td>
+                <td>$1.99</td>
+                <TD>Hot Coffee</TD>
+            <tr>
+                <td>2</td>
+                <td>Cafe Late</td>
+                <td>$2.50</td>
+                <td>Hot Coffee</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Velvet Coffee</td>
+                <td>$2.19</td>
+                <td>Hot Coffee</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Cottage cheese fry</td>
+                <td>$3.20</td>
+                <td>snacks
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>veg pizza</td>
+                <td>$4.20</td>
+                <td>snacks</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>veg burger</td>
+                <td>$4.20</td>
+                <td>snacks</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>cold coffee</td>
+                <td>$2.20</td>
+                <td>coffee</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>vegan shake</td>
+                <td>$4.20</td>
+                <td>shake</td>
+            </tr>
+        
+        </tbody>
+    </table>
+
+    <h1 style="text-align: center;">
+       ~This week's special~
+    </h1>
+    <!-- <div class="main"></div> -->
+
+    <div class="frame">
+        <input type="radio" id="btn1" name="radio-btn">
+        <input type="radio" id="btn2" name="radio-btn">
+        <input type="radio" id="btn3" name="radio-btn">
+        <input type="radio" id="btn4" name="radio-btn">
+        <input type="radio" id="btn5" name="radio-btn">
+
+
+        <div class="all_frames">
+            <div class="part" id="first_frame">
+                <img src="img.avif" alt="">
+            </div>
+            <div class="part" id="sec_frame">
+                <img src="img2.jpg" alt="">
+            </div>
+            <div class="part" id="third_frame">
+                <img src="img3.jpg" alt="">
+            </div>
+            <div class="part" id="fourth_frame">
+                <img src="img4.jpg" alt="">
+            </div>
+            <div class="part" id="fifth_frame">
+                <img src="img5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="triggers">
+        <label for="btn1"></label>
+        <label for="btn2"></label>
+        <label for="btn3"></label>
+        <label for="btn4"></label>
+        <label for="btn5"></label>
+    </div>
+       <hr>
+         <h1 style="text-align: center;">~Contact Us~</h1>
+         <br>
+         <br>
+         <form action="index.html" method="post">
+            
+            <label for="fname"> first name</label>
+            <input type="text" id="fname" placeholder="enter name"> 
+            <br><br>
+    
+            <label for="lname">last name</label>
+            <input type="text" id="lname" value="last name">
+    
+            <br><br>
+        
+    
+            <label for="">mobile no.</label>
+            <input type="number" name="" id="" maxlength="10">  
+    
+            <br><br>    
+    
+            <label for="">email id</label>
+            <input type="email" placeholder="abc@gmail.com" id="">
+    
+            <br><br>
+            <textarea name="description" id=""></textarea><br><br>
+            <input type="submit" value="submit">
+        </form>
+    
+        </body>
+        </html>
